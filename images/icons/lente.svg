@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="29.5" viewBox="0 0 22 29.5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_114" data-name="Rettangolo 114" width="20.173" height="20.173" transform="translate(0 0)" fill="#00852a"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_349" data-name="Raggruppa 349" transform="translate(-1883 -42)">
+    <line id="Linea_12" data-name="Linea 12" x2="22" transform="translate(1883 71)" fill="none" stroke="#00852a" stroke-width="1"/>
+    <g id="Raggruppa_276" data-name="Raggruppa 276" transform="translate(1884.5 42)">
+      <g id="Raggruppa_275" data-name="Raggruppa 275" clip-path="url(#clip-path)">
+        <path id="Tracciato_803" data-name="Tracciato 803" d="M19.879,18.466l-5.419-5.42a8.12,8.12,0,1,0-1.415,1.414l5.42,5.42a1,1,0,0,0,1.414-1.414M8.086,14.173a6.087,6.087,0,1,1,6.086-6.086,6.093,6.093,0,0,1-6.086,6.086" fill="#00852a"/>
+      </g>
+    </g>
+  </g>
+</svg>

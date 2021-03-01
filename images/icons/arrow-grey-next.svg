@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.47" height="33.333" viewBox="0 0 43.47 33.333">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_120" data-name="Rettangolo 120" width="43.47" height="33.333" transform="translate(0 0)" fill="#333"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_278" data-name="Raggruppa 278" transform="translate(43.47 33.333) rotate(180)" clip-path="url(#clip-path)">
+    <path id="Tracciato_804" data-name="Tracciato 804" d="M43.47,17.843H8.82a17.841,17.841,0,0,1,9.024,15.49H15.492A15.508,15.508,0,0,0,0,17.843V15.491A15.509,15.509,0,0,0,15.491,0h2.352A17.84,17.84,0,0,1,8.819,15.492H43.47Z" fill="#333"/>
+  </g>
+</svg>

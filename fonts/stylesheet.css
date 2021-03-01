@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'bw-vivant';
+    src: url('BwVivant-bwvivantblack.eot');
+    src: url('BwVivant-bwvivantblack.eot?#iefix') format('embedded-opentype'),
+        url('BwVivant-bwvivantblack.woff2') format('woff2'),
+        url('BwVivant-bwvivantblack.woff') format('woff'),
+        url('BwVivant-bwvivantblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Vivant Med';
+    src: url('BwVivant-Medium.eot');
+    src: url('BwVivant-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BwVivant-Medium.woff2') format('woff2'),
+        url('BwVivant-Medium.woff') format('woff'),
+        url('BwVivant-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Vivant Thin Skinny';
+    src: url('BwVivant-Skinny.eot');
+    src: url('BwVivant-Skinny.eot?#iefix') format('embedded-opentype'),
+        url('BwVivant-Skinny.woff2') format('woff2'),
+        url('BwVivant-Skinny.woff') format('woff'),
+        url('BwVivant-Skinny.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Vivant ExtLt';
+    src: url('BwVivant-Thin.eot');
+    src: url('BwVivant-Thin.eot?#iefix') format('embedded-opentype'),
+        url('BwVivant-Thin.woff2') format('woff2'),
+        url('BwVivant-Thin.woff') format('woff'),
+        url('BwVivant-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

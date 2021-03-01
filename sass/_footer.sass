@@ -1,0 +1,79 @@
+footer
+    position: relative
+    //background-color: $color-10
+    color: $color-01
+    padding: 5rem 0
+    @extend %font-1-light
+    font-size: 0.81rem
+    
+    a, a:visited
+        color: $color-01
+    a:hover
+        color: $color-ff
+
+    > .row > [class*="col-"],
+    > .container > .row > [class*="col-"]
+        margin-bottom: 30px
+
+    .logo
+        position: relative
+        top: -15px
+        margin-right: 30px
+        @media screen and (min-width: 768px)
+            position: relative
+            //left: -42px
+        @media screen and (min-width: 992px)
+            position: relative
+            //left: -42px
+    
+    .footer-infos
+        position: relative
+        display: flex
+        color: $color-01
+        margin-bottom: 30px
+        .title
+            @extend %font-1-bold
+            color: $color-01
+            font-size: 21px
+
+    .footer-menu
+        @extend %font-1-bold
+        // font-size: 20px
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        margin-left: -15px
+        margin-right: -15px
+        // align-items: center
+        // justify-content: flex-start
+        li  
+            position: relative
+            padding-left: 15px
+            padding-right: 15px
+            @media screen and (min-width: 992px)
+                &:not(:last-child)::after
+                    content: ""
+                    position: absolute
+                    top: 0
+                    right: 0
+                    height: 100%
+                    width: 1px
+                    background-color: $color-50
+            margin-bottom: 5px
+            text-transform: lowercase
+            a, a:visited, a:hover
+                color: $color-30
+            i
+                color: $color-30
+                font-size: 1rem
+
+    
+    
+
+    
+    .social-menu
+        display: flex
+        flex-direction: column
+        li
+            position: relative
+            margin-bottom: 10px
