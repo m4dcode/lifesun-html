@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
 @import url("../fonts/stylesheet.css");
-.section-about-me .description, footer {
+.single-article .excerpt, .section-about-me .description, footer {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -13,7 +13,13 @@ header #nav-1.navbar .dropdown-item {
   font-style: normal;
 }
 
-header #nav-1.navbar .nav-link, header #nav-1.navbar .nav-link:visited, header #nav-1.navbar .nav-link:hover, .btn, .btn-trasparent, .main-title .pretitle, .morebutton, .article-item .description, footer .footer-infos .title, footer .footer-menu {
+.single-article .category-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+header #nav-1.navbar .nav-link, header #nav-1.navbar .nav-link:visited, header #nav-1.navbar .nav-link:hover, h2, .btn, .btn-trasparent, .main-title .pretitle, .morebutton, .article-item .description, .single-article h1, footer .footer-infos .title, footer .footer-menu {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -325,6 +331,11 @@ a:hover {
   opacity: 0.9;
 }
 
+h2 {
+  font-size: 1.08rem;
+  color: #264A2F;
+}
+
 .z-index-1 {
   z-index: 1;
 }
@@ -503,7 +514,6 @@ main {
 
 .section-main {
   position: relative;
-  padding: 5rem 0;
 }
 
 .section-main.only-padding-top {
@@ -812,20 +822,20 @@ main {
   margin-bottom: 30px;
 }
 
-.section-category .category-title.article-list h1 {
+.section-category .category-title.article-list h1, .section-category .category-title.article-list .first {
   display: inline-block;
   font-size: 1.77rem;
 }
 
-.section-category .category-title.article-list h1::after {
-  content: "";
+.section-category .category-title.article-list h1::after, .section-category .category-title.article-list .first::after {
+  content: " / ";
 }
 
 .section-category.blue .category-title.withline {
   border-top: solid 1px #00A6DD;
 }
 
-.section-category.blue h1 {
+.section-category.blue h1, .section-category.blue .first {
   color: #00A6DD;
 }
 
@@ -841,7 +851,7 @@ main {
   border-top: solid 1px #FCA437;
 }
 
-.section-category.orange h1 {
+.section-category.orange h1, .section-category.orange .first {
   color: #FCA437;
 }
 
@@ -857,7 +867,7 @@ main {
   border-top: solid 1px #A5C35B;
 }
 
-.section-category.green h1 {
+.section-category.green h1, .section-category.green .first {
   color: #A5C35B;
 }
 
@@ -867,6 +877,38 @@ main {
 
 .section-category.green .title {
   color: #A5C35B;
+}
+
+.single-article h1 {
+  font-size: 2.15rem;
+  color: #264A2F !important;
+}
+
+.single-article .excerpt {
+  font-size: 1.38rem;
+  margin-bottom: 60px;
+}
+
+.single-article .category-title .first {
+  font-size: 1.08rem;
+  text-decoration: underline;
+}
+
+.single-article .category-title .first::after {
+  content: "";
+}
+
+.single-article .category-title span:not(:first-child) {
+  display: inline-block;
+  font-size: 1.08rem;
+}
+
+.single-article .category-title span:not(:first-child)::before {
+  content: " — ";
+}
+
+.single-article .figure-wrap {
+  margin-bottom: 30px;
 }
 
 .button-section {
@@ -909,7 +951,7 @@ main {
 footer {
   position: relative;
   color: #333333;
-  padding: 5rem 0;
+  padding: 3rem 0;
   font-size: 0.81rem;
 }
 

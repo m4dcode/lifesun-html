@@ -26,12 +26,11 @@ a, a:hover, a:visited
 a:hover
     opacity: 0.9
 
-// h1, h2, h3, h4, h5, h6
-//     @extend %font-2-bold
-//     font-size: 
+h2
+    @extend %font-1-bold
+    font-size: 1.08rem
+    color: $color-30
 
-
-    
 .z-index-1
     z-index: 1
 .z-index-2
@@ -155,7 +154,7 @@ main
     overflow: hidden
 .section-main
     position: relative
-    padding: 5rem 0
+    //padding: 5rem 0
     &.only-padding-top
         padding: 5rem 0 0 0
     &.only-padding-bottom
@@ -362,17 +361,15 @@ main
     .category-title.withline
         margin-bottom: 30px
     .category-title.article-list    
-        h1
-            
+        h1, .first
             display: inline-block
             font-size: 1.77rem
             &::after
-                content: ""
-
+                content: " / "
     &.blue
         .category-title.withline
             border-top: solid 1px $color-10
-        h1
+        h1, .first
             color: $color-10
         .btn-trasparent
             border: solid 1px $color-10
@@ -381,7 +378,7 @@ main
     &.orange
         .category-title.withline
             border-top: solid 1px $color-50
-        h1
+        h1, .first
             color: $color-50
         .btn-trasparent
             border: solid 1px $color-50
@@ -390,12 +387,37 @@ main
     &.green
         .category-title.withline
             border-top: solid 1px $color-20
-        h1
+        h1, .first
             color: $color-20
         .btn-trasparent
             border: solid 1px $color-20
         .title
             color: $color-20
+
+
+.single-article
+    h1
+        @extend %font-1-bold
+        font-size: 2.15rem
+        color: $color-30 !important
+    .excerpt
+        @extend %font-1-light
+        font-size: 1.38rem
+        margin-bottom: 60px
+    .category-title
+        @extend %font-1-semibold
+        .first
+            font-size: 1.08rem
+            text-decoration: underline 
+            &::after
+                content: ""
+        span:not(:first-child)
+            display: inline-block
+            font-size: 1.08rem
+            &::before
+                content: " — "
+    .figure-wrap
+        margin-bottom: 30px
 
 .button-section
     text-align: center
