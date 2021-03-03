@@ -514,6 +514,7 @@ main {
 
 .section-main {
   position: relative;
+  padding: 5rem 0;
 }
 
 .section-main.only-padding-top {
@@ -914,6 +915,10 @@ main {
 .button-section {
   text-align: center;
   padding-top: calc(5rem - 30px);
+}
+
+.section-about-me {
+  padding: 3rem 0;
 }
 
 .section-about-me .title {
