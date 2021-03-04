@@ -262,8 +262,12 @@ main
 .swiper-box-one
     position: relative
     width: 100%
-    padding-left: 8.33%
-    padding-right: 8.33%
+    @media screen and (max-width: 991px)
+        padding-left: 50px
+        padding-right: 50px
+    @media screen and (min-width: 992px)
+        padding-left: 8.33%
+        padding-right: 8.33%
     &::before
         content: ""
         position: absolute
@@ -296,6 +300,16 @@ main
     .swiper-button-prev, .swiper-container-rtl .swiper-button-next
         background-image: url(../images/icons/arrow-grey-prev.svg)
         left: calc(8.33% - 43px - 30px)
+    @media screen and (max-width: 991px)
+        .swiper-button-next, .swiper-container-rtl .swiper-button-prev
+            right: 3px
+        .swiper-button-prev, .swiper-container-rtl .swiper-button-next
+            left: 3px
+    @media screen and (min-width: 992px)
+        .swiper-button-next, .swiper-container-rtl .swiper-button-prev
+            right: calc(8.33% - 43px - 30px)
+        .swiper-button-prev, .swiper-container-rtl .swiper-button-next
+            left: calc(8.33% - 43px - 30px)
 
 .article-item
     margin-bottom: 30px

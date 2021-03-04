@@ -44,21 +44,22 @@ footer
         flex-wrap: wrap
         margin-left: -15px
         margin-right: -15px
+        margin-bottom: 30px
         // align-items: center
         // justify-content: flex-start
         li  
             position: relative
             padding-left: 15px
             padding-right: 15px
-            @media screen and (min-width: 992px)
-                &:not(:last-child)::after
-                    content: ""
-                    position: absolute
-                    top: 0
-                    right: 0
-                    height: 100%
-                    width: 1px
-                    background-color: $color-50
+            //@media screen and (min-width: 992px)
+            &:not(:last-child)::after
+                content: ""
+                position: absolute
+                top: 0
+                right: 0
+                height: 100%
+                width: 1px
+                background-color: $color-50
             margin-bottom: 5px
             text-transform: lowercase
             a, a:visited, a:hover
@@ -67,10 +68,6 @@ footer
                 color: $color-30
                 font-size: 1rem
 
-    
-    
-
-    
     .social-menu
         display: flex
         flex-direction: column

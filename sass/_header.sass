@@ -9,9 +9,13 @@
 
 header
     .logo
+        margin: 30px 0
         text-align: center
         img
-            width: 500px
+            @media screen and (max-width: 575px)
+                width: calc(100% - 60px)
+            @media screen and (min-width: 576px)
+                width: 500px
     #nav-1.navbar
         padding: 15px 0 
         //height: 90px
@@ -24,13 +28,6 @@ header
         .navbar-brand
             position: relative
             width: 140px
-            // margin-bottom: 0
-            // padding-bottom: 0
-            // background-color: $color-20
-            // display: flex
-            // align-items: center
-            // justify-content: center
-            // padding: 15px
             -webkit-transition: all 1.5s
             -moz-transition: all 1.5s
             -o-transition: all 1.5s
@@ -63,9 +60,10 @@ header
             position: relative
             font-size: 14px
             text-transform: lowercase 
-            color: $color-01
-            padding-right: 30px
-            padding-left:  30px  
+            color: $color-01 
+            @media screen and (min-width: 992px)
+                padding-right: 30px
+                padding-left:  30px
         .nav-item:first-child .nav-link
             padding-left: 0
         .nav-item:last-child .nav-link
