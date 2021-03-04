@@ -187,7 +187,7 @@ ul li {
 .navbar-toggler {
   position: relative;
   border: none;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .navbar-toggler i {
@@ -196,6 +196,10 @@ ul li {
 
 header .logo {
   text-align: center;
+}
+
+header .logo img {
+  width: 500px;
 }
 
 header #nav-1.navbar {
@@ -300,25 +304,25 @@ html, body {
 
 @media screen and (min-width: 576px) {
   html, body {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
 @media screen and (min-width: 768px) {
   html, body {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
 @media screen and (min-width: 992px) {
   html, body {
-    font-size: 26px;
+    font-size: 20px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   html, body {
-    font-size: 26px;
+    font-size: 20px;
   }
 }
 
@@ -957,7 +961,7 @@ footer {
   position: relative;
   color: #333333;
   padding: 3rem 0;
-  font-size: 0.81rem;
+  font-size: 14px;
 }
 
 footer a, footer a:visited {
@@ -1002,7 +1006,7 @@ footer .footer-infos {
 
 footer .footer-infos .title {
   color: #333333;
-  font-size: 21px;
+  font-size: 14px;
 }
 
 footer .footer-menu {
