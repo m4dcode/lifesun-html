@@ -187,7 +187,7 @@ ul li {
 .navbar-toggler {
   position: relative;
   border: none;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .navbar-toggler i {
@@ -251,7 +251,7 @@ header #nav-1.navbar .nav-item {
 
 header #nav-1.navbar .nav-link, header #nav-1.navbar .nav-link:visited, header #nav-1.navbar .nav-link:hover {
   position: relative;
-  font-size: 18px;
+  font-size: 14px;
   text-transform: lowercase;
   color: #333333;
   padding-right: 30px;
